@@ -5,13 +5,13 @@
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/ivanseidel/LinkedList.git"
+        "url": "https://github.com/fmalekpour/LinkedList.git"
     },
     "frameworks": "*",
     "platforms": "*",
     "build": {
         "srcFilter": [
-            "+<LinkedList.h>"
+            "+<LinkedList.h> +<LinkedList.cpp>"
         ]
     }
 }
